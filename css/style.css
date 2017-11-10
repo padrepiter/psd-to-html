@@ -12,14 +12,17 @@ body, html{
     margin: 0;
     padding: 0;
 }
-/* HEADER STYLING - MOBILE*/
+
+/*-------------------- HEADER - MOBILE -------------------- */
+
 header{
     width: 100%;
     height: 34px;
     background-color: #bb9c40;
 }
 
-/* NAVBAR STYLING - MOBILE */
+/*-------------------- NAVBAR - MOBILE -------------------- */
+
 nav ul{
     list-style: none;
     padding:0;
@@ -33,8 +36,6 @@ nav ul li a{
     display: block;
     line-height: 1;
 }
-
-
 
 nav ul li{
     border-bottom: 1px dotted #ddd;
@@ -50,11 +51,12 @@ nav div:first-child nav ul{
     margin:0;
 }
 
-/* wide screen */
+/*-------------------- WIDE SCREEN -------------------- */
 
 @media only screen and (min-width: 768px){
     
-    /* HEADER STYLING */
+/*-------------------- TOP HEADER WITH SOCIAL ICONS -------------------- */
+    
     header, header a{
         color: #ffffff;
         text-decoration: none;
@@ -75,11 +77,10 @@ nav div:first-child nav ul{
      }
     
  header i:hover{
-        color: #bb9c40;
+        color: #000000;
     }
     
-    
-    /* NAVBAR STYLING*/
+    /*-------------------- NAVBAR -------------------- */
     
     nav .wrapper div{
         width: 186px;
@@ -150,11 +151,10 @@ nav div:first-child nav ul{
     
 .active{
         color: #bb9c40;
-    }    
+    }
 
-
+/*-------------------- HEADER HIDING AFTER SCROLL -------------------- */    
     
-    /* HEADER HIDING AFTER SCROLL */
     .myDiv{
         
     }
@@ -163,7 +163,7 @@ nav div:first-child nav ul{
         display: none;
     }
     
-    /* SLIDER STYLING */
+/*-------------------- SLIDER -------------------- */
     
     .slider{
         display: flex;
@@ -199,12 +199,14 @@ nav div:first-child nav ul{
         text-shadow: .2rem .2rem 1rem #000000;
     }
     
-    /* SECTION1 STYLING */
+/*-------------------- SECTION1 -------------------- */
+    
     .section1{
         display: flex;
         height: 327px;
         background-color: #3f3f3f;
     }
+    
     .section1 .wrapper{
         display: flex;
     }
@@ -249,7 +251,8 @@ nav div:first-child nav ul{
         width: 220px;
     }
     
-    /* SECTION2 STYLING */
+/*-------------------- SECTION2 -------------------- */
+    
     .section2{
         display: flex;
         height: 582px;
@@ -283,7 +286,7 @@ nav div:first-child nav ul{
         
     }
     
-        .section2 ul:first-child li:nth-child(3){
+    .section2 ul:first-child li:nth-child(3){
         height: 110px;
     }
     
@@ -308,7 +311,8 @@ nav div:first-child nav ul{
         margin-bottom: 1rem;
     }
     
-    /* GALLERY STYLING */
+/*-------------------- GALLERY -------------------- */
+    
     .gallery{
         display: flex;
         width: 100%;
@@ -326,7 +330,8 @@ nav div:first-child nav ul{
         max-width: 100%;
     }
     
-    /* PRODUCT STYLING */
+/*-------------------- SECTION4/PRODUCT -------------------- */
+    
     .section4 {
         display: flex;
         background-image: url('../img/bg-1.jpg');
@@ -346,11 +351,11 @@ nav div:first-child nav ul{
     }
     
     .section4 .product .wrapper ul li:nth-child(1){
-    font-family: "open sans light";
-    font-size: 2.75rem;
-    margin-top: 238px;
-    line-height: 2.1rem;
-    letter-spacing: 4px;
+        font-family: "open sans light";
+        font-size: 2.75rem;
+        margin-top: 238px;
+        line-height: 2.1rem;
+        letter-spacing: 4px;
     }
     
     .section4 .product .wrapper ul li:nth-child(2){
@@ -359,12 +364,11 @@ nav div:first-child nav ul{
     }
     
     .section4 .product .wrapper ul li:nth-child(3){
-    margin-top: 50px;
-        
+        margin-top: 50px;
     }
  
+/*-------------------- LOGO SPACER -------------------- */
     
-    /* LOGO SPACER STYLING */
     .logo-spacer{
         display: flex;
         background-image: url('../img/logo-spacer.jpg');
@@ -373,8 +377,8 @@ nav div:first-child nav ul{
         height: 150px;
     }
     
-    /* REFS STYLING */
-    .refs{
+/*-------------------- REFS -------------------- */
+                .refs{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -423,7 +427,8 @@ nav div:first-child nav ul{
         padding-bottom: 1rem;
     }
     
-    /* CONTACT STYLING */
+/*-------------------- CONTACT -------------------- */
+    
     .contact{
         display: flex;
         background-color: #bb9c40;
@@ -445,22 +450,22 @@ nav div:first-child nav ul{
     }
     
     button{
-    border: 2px solid #ffffff;
-    border-radius: 2px;
-    width: 135px;
-    height: 42px;
-    background-color: Transparent;
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 600;
+        border: 2px solid #ffffff;
+        border-radius: 2px;
+        width: 135px;
+        height: 42px;
+        background-color: Transparent;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 600;
 }
     
-    /* FOOTER STYLING */
+/*-------------------- FOOTER -------------------- */
+    
     footer{
         display: flex;
         height: 330px;
-        
         justify-content:space-between;
         align-items: center;
         background-color: #333333;
@@ -515,6 +520,8 @@ nav div:first-child nav ul{
     footer .wrapper ul li span{
         font-weight: bold;
     }
+    
+    /*-------------------- BOTTOM BAR -------------------- */
     
     .bottom-bar{
         display: flex;
