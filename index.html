@@ -7,35 +7,41 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/e3f059d90b.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
     <script src="js/scroll.js"></script>
     <script src="js/active-menu.js"></script>
-    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 </head>
 
 <body>
+    
+<!-- -------------------- TOP HEADER WITH SOCIAL ICONS -------------------- -->
+    
     <div class="myDiv">
         <header>
             <div class="wrapper">
                 <div>
-            <a href="tel:+15557778888"><i class="fa fa-phone" aria-hidden="true"></i> +1 555 777 8888</a>
-            <a href="mailto:office@fsorb.com"><i class="fa fa-envelope" aria-hidden="true"></i> office@fsorb.com</a>
-            <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            <a href="http://linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </div>
-                    <div>
-            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a> 0 Items
-                        </div>
+                    <a href="tel:+15557778888"><i class="fa fa-phone" aria-hidden="true"></i> +1 555 777 8888</a>
+                    <a href="mailto:office@fsorb.com"><i class="fa fa-envelope" aria-hidden="true"></i> office@fsorb.com</a>
+                    <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="http://linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a> 0 Items
+                </div>
             </div>
         </header>
-        </div>
-        <nav>
-            <div class="wrapper">
-            <a class="logo" href="#"><div>              
-            </div></a>
+    </div>
+    
+<!-- -------------------- NAVBAR -------------------- -->
+    
+    <nav>
+        <div class="wrapper">
+            <a class="logo" href="#">
+                <div>           
+                </div>
+            </a>
             <ul>
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -45,22 +51,24 @@
                 <li><a href="#faq">Blog</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
+<!-- -------------------- SLIDER -------------------- -->
     
     <div class="slider">
-  <img class="mySlides" src="img/slide1.png" style="width:100%">
-  <img class="mySlides" src="img/slide2.png" style="width:100%">
-  <img class="mySlides" src="img/slide3.png" style="width:100%">
-  
+        <img class="mySlides" src="img/slide1.png" style="width:100%" alt="slide1">
+        <img class="mySlides" src="img/slide2.png" style="width:100%" alt="slide2">
+        <img class="mySlides" src="img/slide3.png" style="width:100%" alt="slide3">
         <div class="buttons">
-  <button class="slide-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="slide-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var slideIndex = 1;
+            <button class="slide-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slide-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    
+    <script>
+    
+    var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -77,9 +85,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
-</script>
     
-    </div>
+    </script>
+    
+<!-- -------------------- SECTION1 -------------------- -->
     
     <section class="section1">
         <div class="wrapper">
@@ -89,6 +98,8 @@ function showDivs(n) {
             </ul>
         </div>
     </section>
+    
+<!-- -------------------- SECTION2 -------------------- -->
     
     <section class="section2" id="about">
         <div class="wrapper">
@@ -115,15 +126,18 @@ function showDivs(n) {
             <li>very strong</li>
         </ul>
         </div>
-        
     </section>
+
+<!-- -------------------- GALLERY -------------------- -->
     
-        <div class="gallery">
-            <div class="gallery-item"><img src="img/gallery2.jpg" alt="foto2"></div>
-            <div class="gallery-item"><img src="img/gallery3.jpg" alt="foto3"></div>
-            <div class="gallery-item"><img src="img/gallery1.jpg" alt="foto1"></div>
-            <div class="gallery-item"><img src="img/gallery4.jpg" alt="foto4"></div>
-        </div>
+    <div class="gallery">
+        <div class="gallery-item"><img src="img/gallery2.jpg" alt="foto2"></div>
+        <div class="gallery-item"><img src="img/gallery3.jpg" alt="foto3"></div>
+        <div class="gallery-item"><img src="img/gallery1.jpg" alt="foto1"></div>
+        <div class="gallery-item"><img src="img/gallery4.jpg" alt="foto4"></div>
+    </div>
+    
+<!-- -------------------- SECTION4/PRODUCT -------------------- -->
     
     <section class="section4" id="products">
         <div class="product">
@@ -137,15 +151,15 @@ function showDivs(n) {
         </div>
             </section>
     
+<!-- -------------------- LOGO SPACER -------------------- --> 
+    
         <div class="logo-spacer">
-        
         </div>
-        
 
+<!-- -------------------- REFS -------------------- -->
     
     <div class="refs" id="case">
         <ul class="wrapper">
-            
             <li>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <span>John Grmishaw</span>
@@ -162,10 +176,10 @@ function showDivs(n) {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <span>Maryl Bone</span>
             </li>
-             
-
             </ul>
     </div>
+
+<!-- -------------------- CONTACT -------------------- -->
     
     <section class="contact" title="contact" id="contact">
         <div class="wrapper">
@@ -173,6 +187,8 @@ function showDivs(n) {
             <p>Interested? Get started.</p><button type="button">CONTACT</button>
         </div>
     </section>
+    
+<!-- -------------------- FOOTER -------------------- -->
     
     <footer>
         <div class="wrapper">
@@ -208,20 +224,20 @@ function showDivs(n) {
             <li>Vestibulum lobortis?</li>
         </ul>          
         </div>
-
-        
     </footer>
-                <div class="bottom-bar">
-                <div class="wrapper">
-                    <span>
-                        <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
-                    </span>
-                </div>
-           </div>
+    
+<!-- -------------------- BOTTOM BAR -------------------- -->
+    
+    <div class="bottom-bar">
+        <div class="wrapper">
+            <span>
+                <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+            </span>
+        </div>
+    </div>
 
 </body>
-
 </html>
